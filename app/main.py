@@ -8,4 +8,4 @@ def home():
     return {
         "version": os.getenv("APP_VERSION", "v6.0"),
         "status": "running finally",
-       }
+    }
