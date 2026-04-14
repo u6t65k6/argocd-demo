@@ -6,6 +6,6 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {
-        "version": os.getenv("APP_VERSION", "v5.3"),
+        "version": os.getenv("APP_VERSION", "v5.4"),
         "status": "running very smoothly",
     }
